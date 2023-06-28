@@ -49,8 +49,8 @@ bool ps5Controller::begin(const char* mac) {
     return false;
   }
 
-  ps5_l2cap_connect(addr);
-  // ps5SetBluetoothMacAddress(addr);
+  // ps5_l2cap_connect(addr);
+  ps5SetBluetoothMacAddress(addr);
 
   return begin();
 }

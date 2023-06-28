@@ -1,4 +1,8 @@
 # ps5-esp32
+This is a fork of https://github.com/rodneybakiskan/ps5-esp32
+---
+
+
 Use a ps5 controller with an ESP32.
 
 This is heavily based on the work of Jeffery Pernis to connect a PS3 controller to an ESP32, and the PS4-esp32 library. 
